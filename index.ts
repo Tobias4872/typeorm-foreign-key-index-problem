@@ -41,8 +41,10 @@ createConnection({
             logQueries: true,
         },
     }).then(async (c: Connection) => {
-        console.log(">>>> Updating schema ...");
+        console.log(">>>> First update ...");
         await c.syncSchema();
+
+        console.log(">>>> Second update ...");
         await c.syncSchema();
         await c.close();
     });
