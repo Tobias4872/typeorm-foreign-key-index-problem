@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "compileOnSave": true,
+    "include": [
+        "*.ts",
+        "models/*/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

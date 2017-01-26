@@ -1,0 +1,16 @@
+{
+  "name": "typeorm-foreign-key-index-problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^7.0.4",
+    "mysql": "^2.13.0",
+    "typeorm": "0.0.7"
+  }
+}
